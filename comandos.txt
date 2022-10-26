@@ -1,0 +1,8 @@
+mkdir libro                     
+cd libro                        
+git init                        
+ls -la                          
+cat > indice.txt                
+git log                         
+git add .                       
+git commit -m "Mensaje"         
