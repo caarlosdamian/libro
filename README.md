@@ -1,4 +1,4 @@
 # libro
 Clase frond-end
 
-esto es una prueba de conflictos
+Este es un repositorio de prueba
