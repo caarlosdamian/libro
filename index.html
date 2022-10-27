@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .img-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+    </style>
     <title>Document</title>
   </head>
   <body
@@ -15,11 +23,27 @@
     "
   >
     <h1>Hola este es un nuevo documento</h1>
-    <img
-      style="width: 150px"
-      src="https://www.hogarmania.com/archivos/202207/gato-negro-1280x720x80xX-1.jpg"
-      alt="gato"
-    />
-    <button>Press me</button>
+    <div class="img-container">
+      <img
+        style="width: 150px"
+        src="https://www.hogarmania.com/archivos/202207/gato-negro-1280x720x80xX-1.jpg"
+        alt="gato"
+      />
+      <img
+        style="width: 150px"
+        src="https://www.hogarmania.com/archivos/202207/gato-negro-1280x720x80xX-1.jpg"
+        alt="gato"
+      />
+      <img
+        style="width: 150px"
+        src="https://www.hogarmania.com/archivos/202207/gato-negro-1280x720x80xX-1.jpg"
+        alt="gato"
+      />
+    </div>
+    <div class="button-container">
+      <button>Like</button>
+      <button>Commentar</button>
+      <button>Compartir</button>
+    </div>
   </body>
 </html>
